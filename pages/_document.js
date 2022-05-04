@@ -23,11 +23,11 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        <script src="/assets/js/jquery-3.5.1.min.js"></script>
-        <script src="/assets/js/bootstrap.bundle.min.js"></script>
-        <script src="/assets/js/jquery-ui.min.js"></script>
-        <script src="/assets/js/gsap.min.js"></script>
-        <script src="/assets/js/app.js?v6" type="module"></script>
+        <script src="/assets/js/jquery-3.5.1.min.js" defer></script>
+        <script src="/assets/js/bootstrap.bundle.min.js" defer></script>
+        <script src="/assets/js/jquery-ui.min.js" defer></script>
+        <script src="/assets/js/gsap.min.js" defer></script>
+        <script src="/assets/js/app.js?v6" type="module" defer></script>
       </body>
     </Html>
   );
