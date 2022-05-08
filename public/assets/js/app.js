@@ -50,12 +50,12 @@ function init() {
     modelsGroup = new THREE.Group();
     modelsGroup.name = "Group";
 
-    initRenderer();
-    initCamera();
-    initScene();
-    initEnvironment();
-    initEvents();
-    animate();
+    // initRenderer();
+    // initCamera();
+    // initScene();
+    // initEnvironment();
+    // initEvents();
+    // animate();
   } else {
     $(document).trigger("WEBGL_ERROR");
   }
